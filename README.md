@@ -1,8 +1,8 @@
-# wechat-claude-bridge: WeChat ↔ Claude（CCSwitch接入DeepSeek）纯消息中转桥接系统
+# wechatbot-claude-bridge: WeChat ↔ Claude（CCSwitch接入DeepSeek）纯消息中转桥接系统
 ---
 
 ## 1. 项目概述 
-![实操演示图](https://raw.githubusercontent.com/boogu2005/wechat-claude-bridge/main/assets/wechatclaudebot.png)
+![实操演示图](https://raw.githubusercontent.com/boogu2005/wechatbot-claude-bridge/main/assets/wechatclaudebot.png)
 
 本项目所实现的微信 Claudebot，区别于市面多数同类微信机器人项目：同类项目大多直接调用原生 Claude CLI 客户端完成交互与逻辑处理，而本项目**不依赖原生 Claude CLI 直连模式**。
 
@@ -11,7 +11,7 @@
 ---
 
 ## 2. 设计说明 
-![项目封面](https://raw.githubusercontent.com/boogu2005/wechat-claude-bridge/main/assets/cover.png)
+![项目封面](https://raw.githubusercontent.com/boogu2005/wechatbot-claude-bridge/main/assets/cover.png)
 
 1.  **项目名称**：`WeChat ↔ Claude Bridge`，明确系统核心定位为微信与 Claude 程序的双向桥接工具
 2.  **核心技术标识**：`iLink Protocol · Pure Relay`，标注系统自研通信协议与纯中转核心特性
@@ -20,7 +20,7 @@
 ---
 
 ## 3. 系统核心架构设计 
-![系统架构图](https://raw.githubusercontent.com/boogu2005/wechat-claude-bridge/main/assets/architecture.png)
+![系统架构图](https://raw.githubusercontent.com/boogu2005/wechatbot-claude-bridge/main/assets/architecture.png)
 
 ### 3.1 架构链路说明
 本图为系统全链路通信架构，采用四层解耦设计，实现端到端的消息闭环：
