@@ -11,7 +11,7 @@
 ---
 
 ## 2. 设计说明 
-!项目封面](https://raw.githubusercontent.com/boogu2005/wechat-claude-bridge/main/assets/cover.png)
+![项目封面](https://raw.githubusercontent.com/boogu2005/wechat-claude-bridge/main/assets/cover.png)
 
 1.  **项目名称**：`WeChat ↔ Claude Bridge`，明确系统核心定位为微信与 Claude 程序的双向桥接工具
 2.  **核心技术标识**：`iLink Protocol · Pure Relay`，标注系统自研通信协议与纯中转核心特性
